@@ -17,6 +17,7 @@ int main(){
       int x;
       cin>>x;
       v.push_back(x);
+      v.pop_back();
    }
 
   vector_print(v);
